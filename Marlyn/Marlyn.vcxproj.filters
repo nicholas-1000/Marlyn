@@ -2,8 +2,26 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClInclude Include="Header Files\rbx\rbx.h" />
+    <ClInclude Include="Header Files\ocornut\imconfig.h" />
+    <ClInclude Include="Header Files\ocornut\imgui.h" />
+    <ClInclude Include="Header Files\ocornut\imgui_impl_dx11.h" />
+    <ClInclude Include="Header Files\ocornut\imgui_impl_win32.h" />
+    <ClInclude Include="Header Files\ocornut\imgui_internal.h" />
+    <ClInclude Include="Header Files\ocornut\imstb_rectpack.h" />
+    <ClInclude Include="Header Files\ocornut\imstb_textedit.h" />
+    <ClInclude Include="Header Files\ocornut\imstb_truetype.h" />
+    <ClInclude Include="Header Files\win32\win32.h" />
+    <ClInclude Include="Header Files\renderer\renderer.h" />
+    <ClInclude Include="Header Files\globals\globals.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source Files\dllmain.cpp" />
+    <ClCompile Include="Header Files\ocornut\imgui.cpp" />
+    <ClCompile Include="Header Files\ocornut\imgui_demo.cpp" />
+    <ClCompile Include="Header Files\ocornut\imgui_draw.cpp" />
+    <ClCompile Include="Header Files\ocornut\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Header Files\ocornut\imgui_impl_win32.cpp" />
+    <ClCompile Include="Header Files\ocornut\imgui_tables.cpp" />
+    <ClCompile Include="Header Files\ocornut\imgui_widgets.cpp" />
   </ItemGroup>
 </Project>
