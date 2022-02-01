@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(MSBuildProjectDirectory)\Header Files\renderer;$(MSBuildProjectDirectory)\Header Files\rbx;$(MSBuildProjectDirectory)\Header Files\win32;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildProjectDirectory)\Header Files\renderer;$(MSBuildProjectDirectory)\Header Files\rbx;C:\Users\nicholas\source\repos\Marlyn\Marlyn\Header Files\ovrlay;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -139,7 +139,7 @@
     <ClInclude Include="Header Files\ocornut\imstb_textedit.h" />
     <ClInclude Include="Header Files\ocornut\imstb_truetype.h" />
     <ClInclude Include="Header Files\rbx\rbx.h" />
-    <ClInclude Include="Header Files\win32\win32.h" />
+    <ClInclude Include="Header Files\ovrlay\win32.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Header Files\ocornut\imgui.cpp" />

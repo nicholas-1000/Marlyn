@@ -10,7 +10,7 @@
     <ClInclude Include="Header Files\ocornut\imstb_rectpack.h" />
     <ClInclude Include="Header Files\ocornut\imstb_textedit.h" />
     <ClInclude Include="Header Files\ocornut\imstb_truetype.h" />
-    <ClInclude Include="Header Files\win32\win32.h" />
+    <ClInclude Include="Header Files\ovrlay\win32.h" />
     <ClInclude Include="Header Files\renderer\renderer.h" />
     <ClInclude Include="Header Files\globals\globals.h" />
   </ItemGroup>
