@@ -10,6 +10,9 @@
 #include <tchar.h>
 #include <dwmapi.h>
 
+
+
+
 struct handle_data {
 	unsigned long process_id;
 	HWND window_handle;
